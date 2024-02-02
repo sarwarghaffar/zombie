@@ -1,0 +1,66 @@
+
+.back{
+	background-image: url('../images/moon.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 25vw;
+}
+
+.back2{
+	background-image: url('../images/texture.png');
+	background-color: #7D997A; 
+	background-size: 100%;
+}
+
+.hand{
+	position: absolute;
+	margin-left: 35.9vw;
+	margin-top: 5vw;
+	width: 25.7vw;
+	animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+}
+
+.wrong{
+	color: #FFFFFF;
+	font-size: 1.5vw;
+}
+.oops{
+	color: #EAB863;
+	font-size: 4vw;
+}
+
+.top{
+	margin-left: 4vw;
+	margin-top: 5vw;
+	position: absolute;
+}
+.cloud{
+	position: absolute;
+}
+
+
+
+.bt{
+	margin-top: 1.5vw;
+}
+.grass{
+	position: relative;
+	margin-top: 27vw;
+	margin-left: ;
+}
+.grassSize{
+	width: 100vw;
+	margin-top: 23vw;
+}
+
+.color{
+	color: #ffffff;
+}
